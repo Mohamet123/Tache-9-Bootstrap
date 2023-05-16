@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#acceuil{ 
+    background: linear-gradient(to left, rgb(118, 196, 196),rgb(227, 230, 230) );
+}
+#footer{
+    background: rgb(0, 64, 160);
+    color: #fff;
+}
+#produits{ 
+    background: linear-gradient(to left, rgb(118, 196, 196),rgb(227, 230, 230) );
+}
+._f{
+    font-family: 'Lobster', cursive;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(0, 89, 116);
+  }
+._k{
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    ._k{
+        height: 100%;
+    }
+    ._1{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    ._2{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    ._b{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
