@@ -27,7 +27,11 @@
 }
 
 
-
+._c{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 
 
@@ -54,5 +58,10 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
+    }
+    ._c{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
